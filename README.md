@@ -20,13 +20,17 @@ This Node.js file is a script that updates your app.json or package.json file fo
 ### Examples
 
 Changing 1.0.5.256 to 1.0.5.257:
+
     $ node version.js --build ../app.json
 
 Changing 1.0.5.256 to 1.0.6.0:
+
     $ node version.js --patch ../app.json
 
 Changing 1.0.6.15 to 1.1.0.0:
+
     $ node version.js --minor ../app.json
 
 Changing 1.4.2.55 to 2.0.0.0:
+
     $ node version.js --major ../app.json
