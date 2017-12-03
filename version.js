@@ -1,8 +1,8 @@
 'use strict';
 
 const fs = require('fs');
-let version = process.argv[2];
-let jsonFilePath = process.argv[3];
+let jsonFilePath = process.argv[2] || 'app.json';
+let version = process.argv[3] || '--build';
 
 fs.readFile(jsonFilePath, (err, data) => {
     let json = data.toString('utf8');

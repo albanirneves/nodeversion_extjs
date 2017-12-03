@@ -1,5 +1,5 @@
-# Ext JS Version Controlling for JSON files
-This Node.js file is a script that updates your app.json or package.json file for ExtJS apps
+# Ext JS Version Controlling
+This Node.js script updates app.json or package.json file for ExtJS apps
 
 ## Getting started
 ### Prerequisite
@@ -8,13 +8,15 @@ This Node.js file is a script that updates your app.json or package.json file fo
 ### Syntax
     $ node version.js [versionType] [filePath]
 
-**versionTypes**: (See [Semantic Versioning](https://semver.org/))
+**filePath** (optional): The path to app.json or package.json file
+Default: 'app.json'
+
+**versionTypes** (optional): (See [Semantic Versioning](https://semver.org/))
 - --build (for daily changes builds)
 - --patch (when you make backwards-compatible bug fixes)
 - --minor (when you add functionality in a backwards-compatible manner)
 - --major (when you make incompatible changes)
-
-**filePath**: The path to app.json or package.json file
+Default: --build
 
 ### Examples
 
