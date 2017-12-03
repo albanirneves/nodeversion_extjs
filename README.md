@@ -8,7 +8,7 @@ This Node.js script updates app.json or package.json file for ExtJS apps
 ### Syntax
     $ node version.js [versionType] [filePath]
 
-**versionTypes** (required): (See [Semantic Versioning](https://semver.org/))
+**versionType** (required): (See [Semantic Versioning](https://semver.org/))
 - --build (for daily changes builds)
 - --patch (when you make backwards-compatible bug fixes)
 - --minor (when you add functionality in a backwards-compatible manner)
